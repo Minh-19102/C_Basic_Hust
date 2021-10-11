@@ -1,3 +1,4 @@
+// De bai: Thay the toan bo ky tu trong xau boi 1 ky tu khac
 #include <stdio.h>
 
 void replace_char(char *str[], char c1, char c2) {

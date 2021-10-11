@@ -1,3 +1,4 @@
+// Kiem tra 1 diem co thuoc duong tron khong
 #include <stdio.h>
 typedef struct point {
    double x;

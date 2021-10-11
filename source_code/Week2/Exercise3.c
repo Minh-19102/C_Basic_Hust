@@ -1,3 +1,4 @@
+// copy file 2 vao file 1
 #include <stdio.h>
 
 enum { SUCCESS, FAIL, MAX_LEN = 80 };
