@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#define PHONE_LENGTH 12
+#define NAME_LENGTH 20
+#define EMAIL_LENGTH 20
 struct phoneAddress {
    struct phoneAddress *next;
-   char number[10];
-   char name[15];
-   char email[25];
+   char number[PHONE_LENGTH];
+   char name[NAME_LENGTH];
+   char email[EMAIL_LENGTH];
 };
 struct phoneAddress *NUL;
 struct phoneAddress *createNewPhoneAddress(struct phoneAddress *current) {
@@ -27,7 +31,7 @@ void insertPhoneAddress(struct phoneAddress *root) {
    while (n--) {
       temp = createNewPhoneAddress(temp);
       printf("%x: ", temp);
-      char num[10], name[15], email[20];
+      char num[PHONE_LENGTH], name[NAME_LENGTH], email[EMAIL_LENGTH];
       printf("Enter phone number: ");
       scanf("%s", num);
       strcpy((*temp).number, num);
