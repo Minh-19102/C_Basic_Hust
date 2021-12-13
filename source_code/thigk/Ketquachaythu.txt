@@ -1,0 +1,67 @@
+Ho va ten: Dao Nhat Minh
+MSSV: 20200392
+
+
+Task1:
+
+Read Successfully! The List is:
+John 063215532 john@gmail.com
+Lily 0965231159 lilia125@email.com
+Chi 125432642 Chi96532@outlook.com
+AdamSmith 0623578536 ASmith55432@gmail.com
+Sara 955222156 sarah@gmail.com
+Yudachi 5226331114 YDC5445@yahoo.com
+SmithYouh 0922223145 SY1114@email.com
+Helena 996533322 heln1142@gmail.com
+
+
+The List after sorted is:
+AdamSmith 0623578536 ASmith55432@gmail.com
+Chi 125432642 Chi96532@outlook.com
+Helena 996533322 heln1142@gmail.com
+John 063215532 john@gmail.com
+Lily 0965231159 lilia125@email.com
+Sara 955222156 sarah@gmail.com
+SmithYouh 0922223145 SY1114@email.com
+Yudachi 5226331114 YDC5445@yahoo.com
+
+
+Options: 
+0. Exit
+1. Search by name
+2. Search by email
+3. Search by phone number
+4. Binary Search by name
+Select option:1
+Enter name: AdamSmith
+Found!
+AdamSmith 0623578536 ASmith55432@gmail.com
+
+Select option:1
+Enter name: Adam
+NOT FOUND!
+
+Select option:4
+Enter name: John
+Found!
+John 063215532 john@gmail.com
+
+Select option:4
+Enter name: Sara
+Found!
+Sara 955222156 sarah@gmail.com
+
+Select option:4
+Enter name: Minh
+NOT FOUND!
+
+
+Task2: 
+
+4+3-5*7
+4 3 + 5 7 * - 
+Result = -28 
+
+2+4*5-7+6*3+15/5-4/2
+2 4 5 * + 7 - 6 3 * + 1 5 5 / + 4 2 / - 
+Result = 0 
